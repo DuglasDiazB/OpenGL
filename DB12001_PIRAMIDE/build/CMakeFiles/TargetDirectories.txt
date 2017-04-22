@@ -1,0 +1,1 @@
+/home/duglasdiaz/Proyectos_OPENGL/DB12001_PIRAMIDE/build/CMakeFiles/hello.dir

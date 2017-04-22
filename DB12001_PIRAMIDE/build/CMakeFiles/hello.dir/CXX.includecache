@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/duglasdiaz/ALGORITMOS/CUBO/main.cpp
+/home/duglasdiaz/Proyectos_OPENGL/DB12001_PIRAMIDE/main.cpp
 stdio.h
 -
 GL/gl.h
