@@ -7,10 +7,13 @@
 ## PLEASE DO "NOT" EDIT THIS FILE!
 ###########################################################################
 
+#Antonio Jonathan Centeno Hernandez
+#Duglas Enrique Diaz Barahona
+
 import wx
 import wx.xrc
 import sqlite3
-
+import listctrl1
 ###########################################################################
 ## Class MyFrame1
 ###########################################################################
@@ -18,6 +21,7 @@ import sqlite3
 class MyFrame1 ( wx.Frame ):
 	
 	def __init__( self, parent ):
+		
 		wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = u"Mantenimiento Empleados", pos = wx.DefaultPosition, size = wx.Size( 600,500 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
 		
 		self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
@@ -183,7 +187,7 @@ class MyFrame1 ( wx.Frame ):
 		c=conexion.cursor()
 		c.execute("INSERT INTO empleado VALUES (NULL,?,?,?,?,?,?)",(dui,nombre,edad,direcc,nit,salario))
 		conexion.commit()
-		QMessageBox.information(self,"Correcto","Datos guardados",QMessageBox.Discard)
+		wx.MessageBox('Datos Guardados', 'Info')
 		print "Registros creados con exito"
 		conexion.close()
 		event.Skip()
@@ -196,7 +200,7 @@ class MyFrame1 ( wx.Frame ):
 		self.txtdireccion.SetValue("")	
 		self.txtsalario.SetValue("")	
 		self.txtedad.SetValue("")
-		QMessageBox.warning(self, "Correcto","Datos guardados",QMessageBox.Discard)
+		#wx.MessageBox('download completed', 'Info')
 		event.Skip()		
 	
 	def actualizar( self, event ):
@@ -230,6 +234,9 @@ class MyFrame1 ( wx.Frame ):
 		conn.commit()
 		#wx.MessageBox('Correcto','Datos guardados','Info')
 		c.close()
+		wx.MessageBox('Datos actualizados exitosamente', 'Info')
+		#self.frm_child = listctrl1.MyFrame1(self)
+		#self.frm_child.Show()
 		event.Skip()
 	
 	def eliminar( self, event ):
@@ -239,6 +246,14 @@ class MyFrame1 ( wx.Frame ):
 		e_id=(int(self.eid1),)
 		connd.execute("DELETE FROM empleado  WHERE id = ?", e_id)
 		connd.commit()
+		wx.MessageBox('Desea eliminar los datos seleccionados?', 'Info')
+		self.txtid.SetValue("")
+		self.txtnombre.SetValue("")	
+		self.txtdui.SetValue("")	
+		self.txtnit.SetValue("")	
+		self.txtdireccion.SetValue("")	
+		self.txtsalario.SetValue("")	
+		self.txtedad.SetValue("")
 		event.Skip()
 		
    
@@ -249,8 +264,11 @@ class MyFrame1 ( wx.Frame ):
 class MyApp(wx.App):
     def OnInit(self):
         frame1 = MyFrame1(None)
+        
         self.SetTopWindow(frame1)
+       
         frame1.Show()
+    
         return 1
 
 # end of class MyApp

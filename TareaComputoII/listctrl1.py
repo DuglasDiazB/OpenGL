@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*- 
-
+##Antonio Jonathan Centeno Hernandez
+##Duglas Enrique Diaz Barahona
 ###########################################################################
 ## Python code generated with wxFormBuilder (version Apr 20 2016)
 ## http://www.wxformbuilder.org/
@@ -59,7 +60,7 @@ class MyFrame1 ( wx.Frame ):
 		self.txt_Busqueda = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString,  wx.DefaultPosition, wx.Size( 250,-1 ), 0 )
 		fgSizer2.Add(self.txt_Busqueda , 0, wx.ALL, 5 )
 		
-		self.btn_Buscar = wx.Button( self, wx.ID_ANY, u"Buscar", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.btn_Buscar = wx.Button( self, wx.ID_ANY, u"Actualizar", wx.DefaultPosition, wx.DefaultSize, 0 )
 		fgSizer2.Add( self.btn_Buscar, 0, wx.ALL, 5 )
 		
 		
@@ -88,13 +89,13 @@ class MyFrame1 ( wx.Frame ):
 		#Conexion Bd
 		self.db = sqliteclass.Database("datos_empleados.db") #Instanciar la conexion a la Bd.
 		#Evento cargar datos de encabezado a la lista y se definen las columnas que lleva el control
-		self.listctrl.InsertColumn(0, 'Id', width=90)
-		self.listctrl.InsertColumn(1, 'Nombre', width=200)
-		self.listctrl.InsertColumn(2, 'Dui', width=50)
-		self.listctrl.InsertColumn(3, 'Nit', width=100)
-		self.listctrl.InsertColumn(4, 'Edad', width=200)
-		self.listctrl.InsertColumn(5, 'Salario', width=200)
-		self.listctrl.InsertColumn(6, 'Direccion', width=200)
+		self.listctrl.InsertColumn(0, 'Id', width=50)
+		self.listctrl.InsertColumn(1, 'Nombre', width=280)
+		self.listctrl.InsertColumn(2, 'Dui', width=110)
+		self.listctrl.InsertColumn(3, 'Nit', width=150)
+		self.listctrl.InsertColumn(4, 'Edad', width=70)
+		self.listctrl.InsertColumn(5, 'Salario', width=90)
+		self.listctrl.InsertColumn(6, 'Direccion', width=300)
 		
 		self.Cargar()
 	
@@ -137,12 +138,12 @@ class MyFrame1 ( wx.Frame ):
 		self.direccion=self.lista[4]
 		self.salario=self.lista[5]
 		self.edad=self.lista[6]
-		
-		
+				
 		#Instanciar ventana hija
 		self.frm_child = noname.MyFrame1(self)
-		
+	
 		self.frm_child.Show()
+		
 		self.frm_child.txtid.SetValue(self.item2)
 		self.frm_child.txtdui.SetValue(self.dui)
 		self.frm_child.txtnit.SetValue(self.nit)
@@ -151,6 +152,8 @@ class MyFrame1 ( wx.Frame ):
 		self.frm_child.txtsalario.SetValue(str(self.salario))
 		self.frm_child.txtedad.SetValue(str(self.edad))
 		#self.frm_child.txtid.SetValue(self.lista[0])
+		
+
 		
 	def Cargar(self):
 		#evento para cargar datos de la bd a la lista de 2 maneras todos si el ctrl texto esta vacio 
