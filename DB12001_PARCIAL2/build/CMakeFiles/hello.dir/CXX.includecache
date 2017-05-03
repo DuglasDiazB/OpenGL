@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duglasdiaz/UES/ALGORITMOS/zzzz/CUBO_MODIFICADO/main.cpp
+stdio.h
+-
+GL/gl.h
+-
+GL/glut.h
+-
+

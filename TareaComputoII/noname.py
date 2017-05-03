@@ -44,7 +44,9 @@ class MyFrame1 ( wx.Frame ):
 		gSizer1.Add( self.m_staticText3, 0, wx.ALL, 5 )
 		
 		self.txtid = wx.TextCtrl( self, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.txtid.Enable( False )
 		gSizer1.Add( self.txtid, 0, wx.ALL, 5 )
+		
 		
 		
 		gSizer1.AddSpacer( ( 0, 0), 1, wx.EXPAND, 5 )
@@ -171,16 +173,17 @@ class MyFrame1 ( wx.Frame ):
 	def insertar( self, event ):
 		conexion = sqlite3.connect('datos_empleados.db')
 		print "Conexion a Base de datos establecida "
-		id1=int(self.txtid.GetValue())
+		#id1=int(self.txtid.GetValue())
 		dui=str(self.txtdui.GetValue())
 		nombre=str(self.txtnombre.GetValue())
 		edad=int(self.txtedad.GetValue())
 		direcc=str(self.txtdireccion.GetValue())
 		nit=str(self.txtnit.GetValue())
-		salario=str(self.txtsalario.GetValue)
+		salario=str(self.txtsalario.GetValue())
 		c=conexion.cursor()
-		c.execute("INSERT INTO empleado VALUES (?,?,?,?,?,?,?)",(id1,dui,nombre,edad,direcc,nit,salario))
+		c.execute("INSERT INTO empleado VALUES (NULL,?,?,?,?,?,?)",(dui,nombre,edad,direcc,nit,salario))
 		conexion.commit()
+		QMessageBox.information(self,"Correcto","Datos guardados",QMessageBox.Discard)
 		print "Registros creados con exito"
 		conexion.close()
 		event.Skip()
@@ -193,6 +196,7 @@ class MyFrame1 ( wx.Frame ):
 		self.txtdireccion.SetValue("")	
 		self.txtsalario.SetValue("")	
 		self.txtedad.SetValue("")
+		QMessageBox.warning(self, "Correcto","Datos guardados",QMessageBox.Discard)
 		event.Skip()		
 	
 	def actualizar( self, event ):
@@ -224,6 +228,7 @@ class MyFrame1 ( wx.Frame ):
 		c.execute(sql, data_param)
 		
 		conn.commit()
+		#wx.MessageBox('Correcto','Datos guardados','Info')
 		c.close()
 		event.Skip()
 	

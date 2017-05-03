@@ -151,6 +151,7 @@ class MyFrame1 ( wx.Frame ):
 		self.frm_child.txtsalario.SetValue(str(self.salario))
 		self.frm_child.txtedad.SetValue(str(self.edad))
 		#self.frm_child.txtid.SetValue(self.lista[0])
+		
 	def Cargar(self):
 		#evento para cargar datos de la bd a la lista de 2 maneras todos si el ctrl texto esta vacio 
 		#o dependiendo de la busqueda con like asi muestra los resultados
