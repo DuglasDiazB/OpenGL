@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/duglasdiaz/UES/ALGORITMOS/zzzz/CUBO_MODIFICADO/main.cpp" "/home/duglasdiaz/UES/ALGORITMOS/zzzz/CUBO_MODIFICADO/build/CMakeFiles/hello.dir/main.cpp.o"
+  "/home/duglasdiaz/UES/ALGORITMOS/zzzz/DB12001_PARCIAL2/main.cpp" "/home/duglasdiaz/UES/ALGORITMOS/zzzz/DB12001_PARCIAL2/build/CMakeFiles/hello.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

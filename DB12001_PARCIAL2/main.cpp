@@ -14,6 +14,9 @@ GLfloat Y = 0.0f;
 GLfloat Z = 0.0f;
 GLfloat scale = 1.0f;
  float y=0.9;
+ float x1=0.9;
+ float x2=0.1;
+ float c1=0.1; //vertices de x del cubo colgante
 
 void display()
 {
@@ -22,9 +25,17 @@ void display()
 
     // Resetear transformaciones
     glLoadIdentity();
+     //glTranslatef(X, Y, Z); 	// Transladar en los 3 ejes
+     //glScalef(scale, scale, scale);
+    // Primera cara, se identica por multiples colores
+    //glLoadIdentity();
 
     glOrtho(-2.3, 2.3, -2.3, 2.3, -2.3, 2.3); 
     glViewport(0, 0, 500,500);
+ 
+ 
+ 
+    
  
     
     
@@ -168,135 +179,233 @@ void display()
     glEnd();
     
     //DIBUJANDO LA PARTE SUPERIOR QUE ROTA
-    // Rotar en el eje X,Y y Z   
+    // Rotar en el eje X,Y y Z  
+    //cargamos la matriz de rotacion para que todo lo dibujado abajo gire 
     glRotatef( rotate_x, 1.0, 0.0, 0.0 );
     glRotatef( rotate_y, 0.0, 1.0, 0.0 );
     glRotatef( rotate_z, 0.0, 0.0, 1.0 );
-    //glTranslatef(X, Y, Z); 	// Transladar en los 3 ejes
     
+    //cubo largo de arriba
     
-   //cara frontal
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882); //azul
-    glVertex3f(-0.1, 1.2, 0.1);
-    glVertex3f(1.7, 1.2, 0.1);
-    glVertex3f(1.7, 1.4, 0.1);
-    glVertex3f(-0.1, 1.4, 0.1);
+
+     glTranslatef(0.75, 1.3, 0.0);
+    glColor3f( 0.416, 0.353, 0.804);
+    glBegin(GL_POLYGON);
+    glVertex3f(  x1, -0.1, -0.1 );   
+    glVertex3f(  x1,  0.1, -0.1 );  
+    glVertex3f( -x1,  0.1, -0.1 );  
+    glVertex3f( -x1, -0.1, -0.1 );     
     glEnd();
-    
-          //////cara trasera 
-    glBegin (GL_POLYGON); 
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(0.0, 1.3, 0.1);
-    glVertex3f(1.8, 1.3, 0.1);
-    glVertex3f(1.8, 1.5, 0.1);
-    glVertex3f(0.0, 1.5, 0.1);
+
+    // LADO TRASERO: 
+    glBegin(GL_POLYGON);
+    glVertex3f( x1, -0.1, 0.1 );
+    glVertex3f( x1,  0.1, 0.1 );
+    glVertex3f(-x1,  0.1, 0.1 );
+    glVertex3f(-x1, -0.1, 0.1 );
     glEnd();
-    
-       //////cara superficial 
-    glBegin (GL_POLYGON); 
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(-0.1, 1.4, 0.1);
-    glVertex3f(1.7, 1.4, 0.1);
-    glVertex3f(1.8, 1.5, 0.1);
-    glVertex3f(0.0, 1.5, 0.1);
+
+    // LADO DERECHO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(x1, -0.1, -0.1 );
+    glVertex3f(x1,  0.1, -0.1 );
+    glVertex3f(x1,  0.1,  0.1 );
+    glVertex3f(x1, -0.1,  0.1 );
     glEnd();
-    
-    
-    
-    //cara inferior
-    glBegin (GL_POLYGON); 
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(-0.1, 1.2, 0.1);
-    glVertex3f(1.7, 1.2, 0.1);
-    glVertex3f(1.8, 1.3, 0.1);
-    glVertex3f(0.0, 1.3, 0.1);
+
+    // LADO IZQUIERDO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(-x1, -0.1,  0.1 );
+    glVertex3f(-x1,  0.1,  0.1 );
+    glVertex3f(-x1,  0.1, -0.1 );
+    glVertex3f(-x1, -0.1, -0.1 );
     glEnd();
-    
-    
-    //colgante//////// 
-    //frontal
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.7, 0.9, 0.1);
-    glVertex3f(1.9, 0.9, 0.1);
-    glVertex3f(1.9, 1.4, 0.1);
-    glVertex3f(1.7, 1.4, 0.1);
+
+    // LADO SUPERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(x1,  0.1,  0.1 );
+    glVertex3f(x1,  0.1, -0.1 );
+    glVertex3f(-x1,  0.1, -0.1 );
+    glVertex3f(-x1,  0.1,  0.1 );
     glEnd();
-    
-    
-    //cara trasera
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.8, 1.0, 0.1);
-    glVertex3f(2.0, 1.0, 0.1);
-    glVertex3f(2.0, 1.5, 0.1);
-    glVertex3f(1.8, 1.5, 0.1);
+
+    // LADO INFERIOR: 
+    glBegin(GL_POLYGON);
+
+    glVertex3f(x1, -0.1, -0.1 );
+    glVertex3f(x1, -0.1,  0.1 );
+    glVertex3f(-x1, -0.1,  0.1 );
+    glVertex3f(-x1, -0.1, -0.1 );
     glEnd();
+    glFlush();
     
-    //cara derecha
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.9, 0.9, 0.1);
-    glVertex3f(2.0, 1.0, 0.1);
-    glVertex3f(2.0, 1.5, 0.1);
-    glVertex3f(1.9, 1.4, 0.1);
+/////////////////////////////////////////////
+    
+    //cubo pegado a la parte del cubo de arriba 
+    
+    glTranslatef(0.8, -0.098, 0.0);
+    glBegin(GL_POLYGON);
+    glVertex3f(  x2, -0.2, -0.1 );      
+    glVertex3f(  x2,  0.2, -0.1 );      
+    glVertex3f( -x2,  0.2, -0.1 );      
+    glVertex3f( -x2, -0.2, -0.1 );      
     glEnd();
-    
-    //cara izquierda
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.7, 0.9, 0.1);
-    glVertex3f(1.8, 1.0, 0.1);
-    glVertex3f(1.8, 1.5, 0.1);
-    glVertex3f(1.7, 1.5, 0.1);
+
+    // LADO TRASERO: 
+    glBegin(GL_POLYGON);
+    glVertex3f( x2, -0.2, 0.1 );
+    glVertex3f( x2,  0.2, 0.1 );
+    glVertex3f(-x2,  0.2, 0.1 );
+    glVertex3f(-x2, -0.2, 0.1 );
     glEnd();
-    
-      //cara superiori
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.7, 1.4, 0.1);
-    glVertex3f(1.9, 1.4, 0.1);
-    glVertex3f(1.9, 1.5, 0.1);
-    glVertex3f(1.8, 1.5, 0.1);
+
+    // LADO DERECHO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(x2, -0.2, -0.1 );
+    glVertex3f(x2,  0.2, -0.1 );
+    glVertex3f(x2,  0.2,  0.1 );
+    glVertex3f(x2, -0.2,  0.1 );
     glEnd();
-    
-    
-    //cara inferior
-    glBegin (GL_POLYGON);
-    glColor3f(0.255, 0.412, 0.882);
-    glVertex3f(1.7, 0.9, 0.1);
-    glVertex3f(1.9, 0.9, 0.1);
-    glVertex3f(2.0, 1.0, 0.1);
-    glVertex3f(1.8, 1.0, 0.1);
+
+    // LADO IZQUIERDO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(-x2, -0.2,  0.1 );
+    glVertex3f(-x2,  0.2,  0.1 );
+    glVertex3f(-x2,  0.2, -0.1 );
+    glVertex3f(-x2, -0.2, -0.1 );
     glEnd();
+
+    // LADO SUPERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(x2,  0.2,  0.1 );
+    glVertex3f(x2,  0.2, -0.1 );
+    glVertex3f(-x2,  0.2, -0.1 );
+    glVertex3f(-x2,  0.2,  0.1 );
+    glEnd();
+
+    // LADO INFERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(x2, -0.2, -0.1 );
+    glVertex3f(x2, -0.2,  0.1 );
+    glVertex3f(-x2, -0.2,  0.1 );
+    glVertex3f(-x2, -0.2, -0.1 );
+    glEnd();
+    glFlush();
     
   
-      ////linea para el cable de la grua
-      
-      glTranslatef(0.0,Y,0.0);
-      glLineWidth(8.0);
-      
-    glBegin (GL_LINES);
     
-    glColor3f(0.416, 0.353, 0.804);
+   //cubo que representa la cuera
     
-    glVertex2f(1.8 ,0.9 );
-    glVertex2f(1.8, 0.2);
-   
+    glTranslatef(0.0, -0.4, 0.0);
+    glTranslatef(0.0,Y,0.0);
+    glBegin(GL_POLYGON);
+    glColor3f( 0.502, 0.000, 0.502 );
+    glVertex3f(  0.025, -0.30, -0.025 );      
+    glVertex3f(  0.025,  0.30, -0.025 );      
+    glVertex3f( -0.025,  0.30, -0.025 );     
+    glVertex3f( -0.025, -0.30, -0.025 );      
     glEnd();
-    
-    glTranslatef(1.8,0.2,0.0);
-    glRotatef (-15,0.1,0.1,0.0);
-    glColor3f(0.663, 0.663, 0.663);
-    glutSolidCube(0.18);
-    
+
+    // LADO TRASERO: 
+    glBegin(GL_POLYGON);
+    glVertex3f( 0.025, -0.3, 0.025 );
+    glVertex3f( 0.025,  0.3, 0.025 );
+    glVertex3f(-0.025,  0.3, 0.025 );
+    glVertex3f(-0.025, -0.3, 0.025 );
+    glEnd();
+
+    // LADO DERECHO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(0.025, -0.3, -0.025 );
+    glVertex3f(0.025,  0.3, -0.025 );
+    glVertex3f(0.025,  0.3,  0.025 );
+    glVertex3f(0.025, -0.3,  0.025 );
+    glEnd();
+
+    // LADO IZQUIERDO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(-0.025, -0.3,  0.025 );
+    glVertex3f(-0.025,  0.3,  0.025 );
+    glVertex3f(-0.025,  0.3, -0.025 );
+    glVertex3f(-0.025, -0.3, -0.025 );
+    glEnd();
+
+    // LADO SUPERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(0.025,  0.3,  0.025 );
+    glVertex3f(0.025,  0.3, -0.025 );
+    glVertex3f(-0.025,  0.3, -0.025 );
+    glVertex3f(-0.025,  0.3,  0.025 );
+    glEnd();
+
+    // LADO INFERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(0.025, -0.3, -0.025 );
+    glVertex3f(0.025, -0.3,  0.025 );
+    glVertex3f(-0.025, -0.3,  0.025 );
+    glVertex3f(-0.025, -0.3, -0.025 );
+    glEnd();
+
     glFlush();
     
     
+    //cubo que cuelga de de la cuerda /////////
+   
+    glTranslatef(0.003125, -0.4, 0.0);
+    glColor3f( 0.467, 0.533, 0.600);
+    glBegin(GL_POLYGON);
+    glVertex3f(  c1, -c1, -c1 );  
+    glVertex3f(  c1 , c1, -c1 ); 
+    glVertex3f( c1,  c1, -c1 );    
+    glVertex3f( c1, -c1, -c1 );   
+    glEnd();
+
+    // LADO TRASERO: 
+    glBegin(GL_POLYGON);
+    glVertex3f( c1, -c1, c1 );
+    glVertex3f( c1,  c1, c1 );
+    glVertex3f(-c1,  c1, c1 );
+    glVertex3f(-c1, -c1, c1 );
+    glEnd();
+
+    // LADO DERECHO: 
+    glBegin(GL_POLYGON);
+    glVertex3f(c1, -c1, -c1 );
+    glVertex3f(c1,  c1, -c1 );
+    glVertex3f(c1,  c1,  c1 );
+    glVertex3f(c1, -c1,  c1 );
+    glEnd();
+
+    // LADO IZQUIERDO:
+    glBegin(GL_POLYGON);
+    glVertex3f(-c1, -c1,  c1 );
+    glVertex3f(-c1,  c1,  c1 );
+    glVertex3f(-c1,  c1, -c1 );
+    glVertex3f(-c1, -c1, -c1 );
+    glEnd();
+
+    // LADO SUPERIOR: 
+    glBegin(GL_POLYGON);
+    glVertex3f(c1,  c1,  c1 );
+    glVertex3f(c1,  c1, -c1 );
+    glVertex3f(-c1,  c1, -c1 );
+    glVertex3f(-c1,  c1,  c1 );
+    glEnd();
+
+    // LADO INFERIOR:
+    glBegin(GL_POLYGON);
+    glVertex3f(c1, -c1, -c1 );
+    glVertex3f(c1, -c1,  c1);
+    glVertex3f(-c1, -c1,  c1 );
+    glVertex3f(-c1, -c1, -c1 );
+    glEnd();
+    glFlush();
+   
+   
     glutSwapBuffers();
 
 }
+
 
     
     
@@ -306,22 +415,27 @@ void display()
 // Función para controlar teclas especiales
 void specialKeys( int key, int x, int y )
 {
-
-    //  Flecha derecha: aumentar rotación 7 grados
-    if (key == GLUT_KEY_RIGHT)
+//damos 90 a Y- y Y+ para que hagan los 180 grados de rotacion
+    //  Flecha derecha: aumentar 90 grados en eje Y positivo
+    if (key == GLUT_KEY_RIGHT){
+        if (rotate_y<=90){
         rotate_y += 7;
-
-    //  Flecha izquierda: rotación en eje Y negativo 7 grados
-    else if (key == GLUT_KEY_LEFT)
+	}
+}
+    //  Flecha izquierda: rotación en eje Y negativo 90 grados
+    else if (key == GLUT_KEY_LEFT){
+		if (rotate_y>=-90){
         rotate_y -= 7;
+	}
+	}
     //  Flecha arriba: PARA DESPLAZAR HACIA ARRIBA LA PUNTA
     else if (key == GLUT_KEY_UP){
-        if(Y<=0.5)
+        if(Y<=0.3)
         Y += 0.1f;
 	}
     //  Flecha abajo: PARA QUE SE ESTIRE HACIA ABAJO LA PUNTO
     else if (key == GLUT_KEY_DOWN){
-        if(Y>0.1)
+        if(Y>0.0)
         Y -= 0.1f;
 	}
     //  Tecla especial F2 : rotación en eje Z positivo 7 grados
@@ -357,7 +471,7 @@ int main(int argc, char* argv[])
     glutInitWindowSize (800, 600);
     glutInitWindowPosition (0, 0);
     // Crear ventana
-    glutCreateWindow("Cubo controlado por teclas");
+    glutCreateWindow("Grua: Parcial 2");
     init();
     // Habilitar la prueba de profundidad de Z-buffer
     glEnable(GL_DEPTH_TEST);

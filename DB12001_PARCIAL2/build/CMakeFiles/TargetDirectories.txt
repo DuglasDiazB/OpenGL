@@ -1,1 +1,1 @@
-/home/duglasdiaz/UES/ALGORITMOS/zzzz/CUBO_MODIFICADO/build/CMakeFiles/hello.dir
+/home/duglasdiaz/UES/ALGORITMOS/zzzz/DB12001_PARCIAL2/build/CMakeFiles/hello.dir
