@@ -1,0 +1,1 @@
+/home/duglasdiaz/UES/ALGORITMOS/LABORATORIO_2/Ejercicio_4/build/CMakeFiles/hello.dir

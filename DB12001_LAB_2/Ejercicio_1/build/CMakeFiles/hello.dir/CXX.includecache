@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duglasdiaz/UES/ALGORITMOS/LABORATORIO_2/Ejercicio_1/main.cpp
+stdio.h
+-
+GL/gl.h
+-
+GL/glut.h
+-
+
