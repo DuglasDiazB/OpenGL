@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/duglasdiaz/UES/ALGORITMOS/CUBO/main.cpp
+stdio.h
+-
+GL/gl.h
+-
+GL/glut.h
+-
+SOIL/SOIL.h
+-
+GL/glu.h
+-
+

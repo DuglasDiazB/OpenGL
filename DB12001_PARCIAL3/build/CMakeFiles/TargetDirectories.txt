@@ -1,0 +1,1 @@
+/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/hello.dir
