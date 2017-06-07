@@ -1,1 +1,1 @@
-/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/hello.dir
+/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/hello.dir

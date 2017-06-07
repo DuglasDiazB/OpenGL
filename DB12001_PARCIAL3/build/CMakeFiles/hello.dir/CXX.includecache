@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/duglasdiaz/UES/ALGORITMOS/CUBO/main.cpp
-stdio.h
--
+/home/duglasdiaz/UES/DB12001_PARCIAL3/main.cpp
 GL/gl.h
 -
-GL/glut.h
--
-SOIL/SOIL.h
--
 GL/glu.h
+-
+GL/glut.h
 -
 

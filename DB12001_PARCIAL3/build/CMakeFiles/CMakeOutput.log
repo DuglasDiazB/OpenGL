@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2913279249/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2913279249.dir/build.make CMakeFiles/cmTryCompileExec2913279249.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2913279249.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2913279249.dir/testCCompiler.c.o   -c /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2913279249
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2913279249.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2913279249.dir/testCCompiler.c.o  -o cmTryCompileExec2913279249 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1685728680/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1685728680.dir/build.make CMakeFiles/cmTryCompileExec1685728680.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1685728680.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1685728680.dir/testCCompiler.c.o   -c /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1685728680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1685728680.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1685728680.dir/testCCompiler.c.o  -o cmTryCompileExec1685728680 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1268198921/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1268198921.dir/build.make CMakeFiles/cmTryCompileExec1268198921.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1268198921
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1268198921.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1268198921 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1535539787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1535539787.dir/build.make CMakeFiles/cmTryCompileExec1535539787.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1535539787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1535539787.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1535539787 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1268198921' '-rdynamic' '-mtune=generic' '-march=i586'
- /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmtab0A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1268198921 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1535539787' '-rdynamic' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZbKhn9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1535539787 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1268198921/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1268198921.dir/build.make CMakeFiles/cmTryCompileExec1268198921.dir/build]
-  ignore line: [make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1268198921]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1268198921.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1268198921 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1535539787/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1535539787.dir/build.make CMakeFiles/cmTryCompileExec1535539787.dir/build]
+  ignore line: [make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1535539787]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1535539787.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1535539787 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
@@ -88,13 +88,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1268198921' '-rdynamic' '-mtune=generic' '-march=i586']
-  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmtab0A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1268198921 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1535539787' '-rdynamic' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZbKhn9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1535539787 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccmtab0A.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZbKhn9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1268198921] ==> ignore
+    arg [cmTryCompileExec1535539787] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec1268198921.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1535539787.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -152,32 +152,32 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2580313497/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2580313497.dir/build.make CMakeFiles/cmTryCompileExec2580313497.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2580313497.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2580313497.dir/testCXXCompiler.cxx.o -c /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2580313497
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2580313497.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2580313497.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2580313497 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1859712374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1859712374.dir/build.make CMakeFiles/cmTryCompileExec1859712374.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1859712374.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1859712374.dir/testCXXCompiler.cxx.o -c /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1859712374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1859712374.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1859712374.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1859712374 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec541382225/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec541382225.dir/build.make CMakeFiles/cmTryCompileExec541382225.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec541382225
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec541382225.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec541382225 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2876298787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2876298787.dir/build.make CMakeFiles/cmTryCompileExec2876298787.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2876298787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2876298787.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2876298787 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
@@ -187,24 +187,24 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec541382225' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
- /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclXQDvq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec541382225 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2876298787' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAG3weQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2876298787 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec541382225/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec541382225.dir/build.make CMakeFiles/cmTryCompileExec541382225.dir/build]
-  ignore line: [make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec541382225]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec541382225.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec541382225 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2876298787/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2876298787.dir/build.make CMakeFiles/cmTryCompileExec2876298787.dir/build]
+  ignore line: [make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2876298787]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2876298787.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2876298787 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
@@ -214,13 +214,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec541382225' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
-  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclXQDvq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec541382225 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2876298787' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAG3weQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2876298787 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cclXQDvq.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccAG3weQ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -236,7 +236,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec541382225] ==> ignore
+    arg [cmTryCompileExec2876298787] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -248,7 +248,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec541382225.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2876298787.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -276,92 +276,92 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/i386-linux-gnu/libX11.so;/usr/lib/i386-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2004178862/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2004178862.dir/build.make CMakeFiles/cmTryCompileExec2004178862.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2004178862.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2004178862.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2004178862
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2004178862.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2004178862.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2004178862 -rdynamic -lX11 -lXext 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3492148004/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3492148004.dir/build.make CMakeFiles/cmTryCompileExec3492148004.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3492148004.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3492148004.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3492148004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3492148004.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3492148004.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3492148004 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec55655015/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec55655015.dir/build.make CMakeFiles/cmTryCompileExec55655015.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec55655015.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec55655015.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec55655015
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec55655015.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec55655015.dir/CheckFunctionExists.c.o  -o cmTryCompileExec55655015 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3528900455/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3528900455.dir/build.make CMakeFiles/cmTryCompileExec3528900455.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3528900455.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3528900455.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3528900455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3528900455.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3528900455.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3528900455 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1649657307/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1649657307.dir/build.make CMakeFiles/cmTryCompileExec1649657307.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1649657307.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1649657307.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1649657307
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1649657307.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1649657307.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1649657307 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4195864968/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4195864968.dir/build.make CMakeFiles/cmTryCompileExec4195864968.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4195864968.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec4195864968.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4195864968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4195864968.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec4195864968.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4195864968 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3884366471/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3884366471.dir/build.make CMakeFiles/cmTryCompileExec3884366471.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3884366471.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3884366471.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3884366471
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3884366471.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3884366471.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3884366471 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec42104855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec42104855.dir/build.make CMakeFiles/cmTryCompileExec42104855.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec42104855.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec42104855.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec42104855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec42104855.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec42104855.dir/CheckFunctionExists.c.o  -o cmTryCompileExec42104855 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4002450112/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4002450112.dir/build.make CMakeFiles/cmTryCompileExec4002450112.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4002450112.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec4002450112.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec4002450112
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4002450112.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec4002450112.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4002450112 -rdynamic 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2371028337/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2371028337.dir/build.make CMakeFiles/cmTryCompileExec2371028337.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2371028337.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2371028337.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2371028337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2371028337.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2371028337.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2371028337 -rdynamic 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp
+Change Dir: /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2174363803/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2174363803.dir/build.make CMakeFiles/cmTryCompileExec2174363803.dir/build
-make[1]: Entering directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2174363803.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec2174363803.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2174363803
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2174363803.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec2174363803.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2174363803 -rdynamic -lICE 
-make[1]: Leaving directory '/home/duglasdiaz/UES/ALGORITMOS/CUBO/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4023852160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4023852160.dir/build.make CMakeFiles/cmTryCompileExec4023852160.dir/build
+make[1]: Entering directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4023852160.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec4023852160.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4023852160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4023852160.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec4023852160.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4023852160 -rdynamic -lICE 
+make[1]: Leaving directory '/home/duglasdiaz/UES/DB12001_PARCIAL3/build/CMakeFiles/CMakeTmp'
 
 
